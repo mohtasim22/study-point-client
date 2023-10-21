@@ -16,7 +16,6 @@ const Banner = () => {
                 <h2>Smart Gadgets</h2>
                 <h3>Here</h3>
                 <Link to={"/login"}><button className="btn font-roboto">Shop Now</button></Link>
-                
             </div>
 
 
