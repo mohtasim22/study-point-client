@@ -54,7 +54,7 @@ const Register = () => {
     return (
         
         <div>
-            <div className="flex flex-col font-rajdhani items-center mt-14 mb-20 pt-6 sm:justify-center sm:pt-0 ">
+            <div className="flex flex-col mx-5 font-rajdhani items-center mt-14 mb-20 pt-6 sm:justify-center sm:pt-0 ">
                 
                 <div className="w-full px-6 py-4 mt-6 overflow-hidden bg-white rounded-md border-2 border-red-500 sm:max-w-lg sm:rounded-lg">
                    
