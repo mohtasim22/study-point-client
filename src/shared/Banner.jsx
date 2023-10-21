@@ -18,6 +18,7 @@ const Banner = () => {
                 <Link to={"/login"}><button className="btn font-roboto">Shop Now</button></Link>
                 
             </div>
+
             
         </div>
     );
