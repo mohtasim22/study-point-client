@@ -20,7 +20,6 @@ const Banner = () => {
             </div>
 
 
-            
         </div>
     );
 };
