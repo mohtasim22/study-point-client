@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "picture": "https://i.ibb.co/C5rLHnm/feature-image1.jpg",
+    "title": "Food Testing",
+    "description": "The Food Tasting event at the food festival is a culinary extravaganza that transforms taste buds into adventurous explorers. A diverse array of dishes, ranging from international delicacies to innovative street food creations, beckons attendees to savor, share, and celebrate flavors. Expertly curated tasting stations offer a passport to gastronomic discoveries, making it a sensory journey that transcends borders and brings people together through the universal language of food. It's a delicious immersion into the artistry of cuisine, where every bite tells a story and every flavor is an invitation to indulge.",
+    "price": 20
+  },
+  {
+    "id": 2,
+    "picture": "https://i.ibb.co/2hgg6FN/feature-image2.jpg",
+    "title": "Cooking Show",
+    "description": "The Cooking Show event at the food festival is a captivating showcase of culinary expertise and creativity. Renowned chefs take center stage, demonstrating their culinary prowess with flair. Attendees witness the magic of cooking unfold as dishes come to life before their eyes, while learning valuable tips and techniques. From gourmet masterpieces to everyday recipes, this event celebrates the art of cooking, inspiring and educating food enthusiasts of all levels. It's a delightful experience that leaves attendees with a deeper appreciation for the culinary world and a desire to try their own hand at the stove.",
+    "price": 22
+  },
+  {
+    "id": 3,
+    "picture": "https://i.ibb.co/tXpL29w/feature-image3.jpg",
+    "title": "Live Performance",
+    "description": "The Live Performance event at the food festival is a feast for the senses, offering a vibrant fusion of music, dance, and entertainment. From talented local artists to nationally acclaimed acts, the stage comes alive with captivating performances that set the festival's rhythm. As the crowd sways to the music and applauds the talent on display, it creates an electric atmosphere, enhancing the overall festival experience. Whether it's a live band, dancers, or comedians, this event adds a dynamic and memorable dimension to the celebration of food and culture.",
+    "price": 25
+  },
+  {
+    "id": 4,
+    "picture": "https://i.ibb.co/kQSNwQq/feature-4.png",
+    "title": "Spicy Food Challenge",
+    "description": "The Spicy Food Challenge event at the food festival is a fiery adventure for thrill-seeking taste buds. Brave participants take on the heat, testing their tolerance for intense flavors and spicy sensations. From scorching hot wings to mouth-numbing chili peppers, this event pits contestants against culinary firestorms. The audience cheers on as competitors endure the burn, and winners are celebrated with fiery pride. It's a thrilling, tongue-tingling spectacle that adds a spicy twist to the festival's culinary offerings, creating memorable moments of daring gastronomic feats.",
+    "price": 27
+  },
+  {
+    "id": 5,
+    "picture": "https://i.ibb.co/2gMF6br/feature-6.png",
+    "title": "Comedy Show",
+    "description": "The Comedy Show event at the food festival is a side-splitting evening of laughter and entertainment. Talented comedians take the stage, delivering a hilarious mix of stand-up comedy, witty anecdotes, and humorous observations. The audience is treated to uproarious laughter as they enjoy a side dish of comedy with their culinary delights. This event adds a lighthearted and jovial atmosphere to the festival, making it an unforgettable night of food, fun, and laughter that leaves attendees with smiles on their faces.",
+    "price": 30
+  },
+  {
+    "id": 6,
+    "picture": "https://i.ibb.co/hBMk4hj/feature-5.png",
+    "title": "Games and activities",
+    "description": "The Games and Activities event at the food festival offers a delightful diversion for attendees of all ages. From carnival-style games to interactive challenges, there's something for everyone to enjoy between bites. Families engage in friendly competitions, while friends test their skills in various amusements. It's an opportunity for laughter, bonding, and creating lasting memories amidst the delectable food offerings. This event infuses a playful spirit into the festival, ensuring that it's not just a feast for the palate but also a day filled with joy and camaraderie.",
+    "price": 32
+  }
+]

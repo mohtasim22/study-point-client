@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.btn{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 50px;
+    background-color: #e52e06;
+    border: 1px solid #e52e06;
+    border-radius: 36px 36px 36px 36px;
+    color: white;
+}
+.h-text{
+    color: #191919;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.p-text{
+    color: #888888;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.margin-y{
+    margin: 80px 0px ;
+}
+.pad-y{
+    padding: 80px 0px ;
+}
+.diff-bg{
+    background-color: #f8f8f8;
+}
+.diff-bg-2{
+    color: white;
+    background-color: #191919;
+    background-image: url(//demo.themewinter.com/wp/exhibz/food-festival/wp-content/uploads/sites/3/2019/09/image_shape.png);
+}
+.logo{
+    width: 100px;
+}
+.menu a{
+    font-size: 28px;
+    margin: 0 10px;
+}
+.user-info {
+    margin-left: 10px;
+}
+.user-info .name {
+    margin-left: 10px;
+}
+.avatar{}
+.avatar img{
+    width: 80px;
+}
+.card-img{
+    height: 380px;
+}
+.card-img img{
+    width: 70% !important;
+}
+.navbar-end {
+    width: 50%;
+    justify-content: space-between;
+}
+.dark-mode-button{
+    margin-right: 15px ;
+}
+
+.top-section{
+    background-image: url(./assets/bg_image.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+.top-section-2{
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+}
+.banner-section{
+    line-height: 1.2;
+    margin: 100px 0 140px;
+}
+.banner-section h1{
+    font-size: 70px;
+}
+.banner-section h2{
+    font-size: 140px;
+    color: #e52e06;
+}
+.banner-section h3{
+    font-size: 110px;
+}
+.banner-section button{
+    margin-top: 50px;
+    font-size: 20px;
+}
+.services-section-top{
+    padding-bottom: 50px;
+}
+
+.location-section{
+    align-items: center;
+}
+.location-section img{
+    width: 500px;
+}
+.location-section .text-content{
+    flex-basis: 50%;
+}
+.location-section .image-content{
+    padding: 0px 50px;
+}
+.chefs-section img{
+    width: 80%;
+}
+.chefs-section-top{
+    padding-bottom: 50px;
+}
+.header-section{
+    background: #051416;
+    color: white;
+} 
+.footer-section {
+    background: #071c1f;
+}
+.footer-section a{
+    color: white;
+}
+.footer-section aside{
+    color: white;
+}
+.card img{
+    width: 100%;
+}
+.card-body{
+    background-color: #e52f0686;
+    color: white;
+    border-radius: 0 0 10px 10px;
+    padding: 25px !important;
+
+}
+.card{
+    border: 2px solid #e52f0649;
+}
+.card button{
+    
+}
+.card-body p{
+    text-align: left;
+}
+.card-body h5{
+    text-align: left;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.brands-section .brand-img{
+    height: 180px;
+
+}
+.brands-section .brand-card{
+
+}
+.card-body .card-txt{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.service-details-section{
+    margin: 80px 0px;
+}
+.service-details-section img{
+    width: 100%;
+    border-radius: 20px 20px 0 0 ;
+}
+.service-details-section h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.service-details-section p{
+    font-size: 18px;
+}
+.service-details-section h5{
+    text-align: left;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.services-section{
+}
+.services-section .services-inner{
+    padding: 35px;
+}
+.services-section .icon h1{
+    font-size: 40px;
+}
+.services-section .services-text{
+}
+
+
+/* RESPONSIVE CSS */
+@media (max-width: 576px) {
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .menu {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .menu a{
+        font-size: 25px;
+    }
+    .navbar-center {
+        flex-shrink: inherit;
+    }
+    .location-section {
+        flex-direction: column;
+    }
+    .navbar-start {
+        width: 50%;
+        justify-content: center;
+    }
+    .banner-section {
+        padding: 0 20px;
+    }
+    .services-section {
+        padding: 0 20px;
+    }
+    .location-section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .location-section p {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .location-section .image-content {
+        padding: 0;
+    }
+    .service-details-section {
+        padding: 0 20px;
+    }
+    .chefs-section {
+        padding: 0 20px;
+    }
+    .banner-section h2 {
+        font-size: 60px;
+    }
+    .banner-section h3 {
+        font-size: 50px;
+    }
+    .h-text {
+        text-align: center;
+    }
+    .p-text {
+        color: #888888;
+        font-size: 20px;
+    }
+    .navbar-end {
+        width: 50%;
+        justify-content: center;
+    }
+    .user-info {
+        margin-left: 0px;
+    }
+    .navbar-end {
+        margin-top: 20px;
+        width: 90%;
+    }
+    .avatar img {
+        width: 50px;
+    }
+    .user-info .name {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .stats {
+        display: block;
+    }
+    .footer li{
+        list-style: none;
+    }
+    .banner-section h1 {
+        font-size: 50px;
+    }
+    .brands-section .brand-img {
+        height: 60px;
+    }
+    .add-product-section{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .update-product-section{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .menu a {
+        font-size: 28px;
+        margin: 4px 30px;
+    }
+    .services-section{
+        margin: 20px 0px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1200px) { 
+    
+}
+
+@media (min-width: 1400px) {
+
+}
