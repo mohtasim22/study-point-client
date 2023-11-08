@@ -10,6 +10,7 @@ const Brands = () => {
             <div className="title text-center mb-10">
                 <h1 className="font-bold font-rajdhani text-6xl">Brands</h1>
             </div>
+            
             <div className='grid grid-cols-2 md:grid-cols-3 gap-4'>
                 {brands.map((brand)=>(
                     
